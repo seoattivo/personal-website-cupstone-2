@@ -1,0 +1,56 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.hero-section {
+  height: 100vh; /* Imposta l'altezza della sezione hero pari all'100% dell'altezza del viewport */
+  background-image: url('../image/sfondo-capstone-13.jpeg'); /* Sostituisci con il percorso della tua immagine */
+  background-size: cover; /* Assicura che l'immagine copra l'intera sezione */
+  background-position: center; /* Centra l'immagine */
+  display: flex;
+  align-items: center; /* Centra il contenuto della sezione verticalmente */
+  justify-content: center; /* Centra il contenuto della sezione orizzontalmente */
+  color: white; /* Imposta il colore del testo a bianco, o scegli un altro colore che contrasti con la tua immagine */
+}
